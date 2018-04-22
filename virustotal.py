@@ -1,7 +1,6 @@
 import hashlib
 import os
 import wget
-import re
 
 def main():
   files = [f for f in os.listdir('.') if os.path.isfile(f)]
